@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main()
+{
+	FILE *punt = fopen ("output.txt","w");
+	
+	if (punt==NULL){
+		
+		perror ("Error en la creación del archivo");
+	
+	} else {
+	
+		fprintf(punt, "Hola Franco Battista");
+		
+	}
+	
+	
+	return 0;
+}
