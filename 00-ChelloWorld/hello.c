@@ -2,8 +2,7 @@
 
 int main()
 {
-
 	printf("Hola Franco Battista");
 	
-		return 0;
+return 0;
 }
